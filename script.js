@@ -1,5 +1,6 @@
 function register()
 {
+    event.preventDefault();
     if(localStorage.getItem(acno.value))
         {
             alert('Enter a different account no')
