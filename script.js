@@ -19,6 +19,7 @@ function register()
 function login()
 {
     let user= JSON.parse(localStorage.getItem(acno.value));
+    console.log(user);
     if(user)
     {
         if(user.password== pwd.value)
